@@ -57,3 +57,19 @@ console.log(sum(array));
 // let arrayValue = [1, 2, 3, 4, 5];
 // reverseArrayInPlace(arrayValue);
 // console.log(arrayValue); // outputs [5, 4, 3, 2, 1]
+
+// made a function named reverseArray
+function reverseArray(array) {
+    // made a let variable named newArray
+    let newArray = [];
+    // made a for loop
+    for (let i = array.length - 1; i >= 0; i--) {
+        // added array[i] to the newArray
+        newArray.push(array[i]);
+    }
+    // return the newArray
+    return newArray;
+}
+// called the function
+console.log(reverseArray(["A", "B", "C"]));
+

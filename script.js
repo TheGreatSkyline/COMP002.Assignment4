@@ -23,6 +23,24 @@ console.log(range(50, 79));
 // Example output:
 // console.log(sum(range(1, 10))); // returns 55
 
+// made a function named sum
+
+function sum(array) {
+    // made a let variable named total
+    let total = 0;
+    // made a for loop
+    for (let i = 0; i < array.length; i++) {
+        // added i to the total
+        // added array[i] to the total
+        total += array[i];
+    }
+    // return the total
+    return total;
+}
+// called the variable
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// called the function
+console.log(sum(array));
 
 
 
